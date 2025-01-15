@@ -24,7 +24,7 @@
    - The model's performance is evaluated using `model.score()`, which calculates the accuracy on the test data.
 
 ### 7. **Performance Evaluation:**
-   - **Accuracy**: The accuracy score is calculated using `accuracy_score()` from `sklearn`, which compares the predicted labels with the actual labels in the test set.
+   - **Accuracy**: The accuracy score is calculated using accuracy_score()` from `sklearn`, which compares the predicted labels with the actual labels in the test set.
    - **Precision and Recall**: The `precision_score()` and `recall_score()` functions are used to calculate precision and recall. These metrics are useful for understanding how well the model handles false positives and false negatives.
      - **Precision**: Measures how many of the predicted positive reviews are actually positive.
      - **Recall**: Measures how many of the actual positive reviews the model successfully identified.
