@@ -1,12 +1,12 @@
 The task involves performing data preprocessing, model training, and evaluation. Here's a brief explanation:
 
 1. **Data Preprocessing**:
-   - **Missing Values**: The dataset is checked for missing values, and any missing values in the `rm` column (average number of rooms) are filled with the mean of the existing values.
+   - **Missing Values**: The dataset is checked for missing values, and any missing values in the rm column (average number of rooms) are filled with the mean of the existing values.
    - **Normalization**: The numerical features of the dataset are normalized using **StandardScaler**. This ensures all features are on the same scale, improving model performance.
    - **Data Splitting**: The data is divided into two sets: one for training the model and another for testing it.
 
 2. **Model Training**:
-   - A **Linear Regression** model is trained using the training set to learn the relationship between the input features and the target variable (`medv`, median house value).
+   - A **Linear Regression** model is trained using the training set to learn the relationship between the input features and the target variable (medv, median house value).
 
 3. **Model Evaluation**:
    - The model’s performance is evaluated by predicting house values on the test set and calculating the **Root Mean Squared Error (RMSE)**. This metric measures how well the model's predictions match the actual values.
